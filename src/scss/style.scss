@@ -88,13 +88,6 @@ p {
     margin-bottom: 1em;
     color: $color-one;
     padding-top: 10em;
-    &:hover {
-      .card-content {
-        .card-text {
-          max-height: 100em;
-        }
-      }
-    }
   }
 }
 
@@ -112,8 +105,8 @@ p {
     background: white;
     opacity: 0.8;
     height: auto;
-    max-height: 0;
-    transition: all 2s;
+    max-height: 100em;
+    transition: all 1.5s;
     padding: 0em 1em;
   }
 }
@@ -186,6 +179,23 @@ p {
     justify-content: space-between;
     li {
       width: 31%;
+    }
+  }
+
+  #section-cards {
+    li {
+      .card-text {
+        height: auto;
+        max-height: 0;
+      }
+
+      &:hover {
+        .card-content {
+          .card-text {
+            max-height: 100em;
+          }
+        }
+      }
     }
   }
 }
