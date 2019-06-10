@@ -12,6 +12,7 @@ var htmlReplace = require("gulp-html-replace");
 var htmlMin = require("gulp-htmlmin");
 var del = require("del");
 var sequence = require("run-sequence");
+var ghPages = require("gulp-gh-pages");
 
 var config = {
   dist: "dist/",
@@ -112,3 +113,7 @@ gulp.task("build", function() {
 });
 
 gulp.task("default", ["serve"]);
+
+gulp.task("deploy", function() {
+  return gulp.src("./dist/**/*").pipe(ghPages());
+});
