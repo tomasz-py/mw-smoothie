@@ -1,17 +1,140 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>Gulp Starter Kit</title>
-    <!-- build:css -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- endbuild -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Smoothie</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>Gulp starter kit</h1>
-    <!-- build:js -->
-    <script src="js/plugins.js"></script>
-    <script src="js/script.js"></script>
-    <!-- endbuild  -->
+    <!-- Header -->
+    <header id="header" class="grid">
+      <div class="header-img"></div>
+      <div class="content-wrapper">
+        <h1>SMOOTHIE DELIGHT</h1>
+        <a href="#section-sub" class="btn">Subscribe!</a>
+        <p>
+          EVERY SMOOTHIE IS AN EXPERIENCE. </br>MAKE IT COUNT!
+        </p>
+       
+      </div>
+    </header>
+    <main id="main">
+      <!-- section-hello -->
+      <section id="section-hello" class="grid">
+        <div class="content-wrapper">
+          <h2 class="content-title">Hello everyone!</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. In ullam vel ea illo perferendis praesentium aut laborum eius debitis facere! Quibusdam cupiditate saepe, deserunt, fugiat culpa harum assumenda sed corporis, optio nisi nesciunt! Expedita earum veniam officiis corrupti neque quis.
+          </p>
+        </div>
+      </section>
+
+      <!--section cards-->
+      <section id="section-cards" class="grid">
+        <ul>
+          <li>
+            <div class="card">
+              <img
+                src="./images/carrot.jpeg"
+                alt=""
+              />
+              <div class="card-content">
+                <div class="card-title">
+                <h3>Carrot & tomato</h3>
+                <p>
+                  LOSE WEIGHT
+                </p>
+                </div>
+                <div class="card-text">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum velit repudiandae harum laudantium dignissimos reiciendis error dolor unde totam qui quos dolorum nisi, voluptate saepe? Alias inventore molestiae vitae corporis.</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          
+          <li>
+              <div class="card">
+                <img
+                  src="./images/blueberries.jpeg"
+                  alt=""
+                />
+                <div class="card-content">
+                  <div class="card-title">
+                  <h3>Blueberries</h3>
+                  <p>
+                      ADD MUSCLE
+                  </p>
+                  </div>
+                  <div class="card-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum velit repudiandae harum laudantium dignissimos reiciendis error dolor unde totam qui quos dolorum nisi, voluptate saepe? Alias inventore molestiae vitae corporis.</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+                <div class="card">
+                  <img
+                    src="./images/watermellon.jpeg"
+                    alt=""
+                  />
+                  <div class="card-content">
+                    <div class="card-title">
+                    <h3>Watermellon</h3>
+                    <p>
+                       HEALTHY & DELICIOUS
+                    </p>
+                    </div>
+                    <div class="card-text">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum velit repudiandae harum laudantium dignissimos reiciendis error dolor unde totam qui quos dolorum nisi, voluptate saepe? Alias inventore molestiae vitae corporis.</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+        </ul>
+      </section>
+
+      <!--section sub-->
+      <section id="section-sub" class="grid">
+        <div class="content-wrapper">
+          <h2 class="content-title">SIGN UP FOR OUR MAILING LIST
+            TO GET UPDATES!</h2>
+          <input class="email-input" placeholder="example@page.com">
+          <a href="" class="btn">Subscribe!</a>  
+        </div>
+      </section>
+
+        <!--section contact-->
+        <section id="section-contact" class="grid">
+            <div class="content-wrapper">
+              <h2>Visit us:</h2>
+              <ul>                    
+                  <li class="social">
+                    <a href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                  </li>
+                  <li class="social">
+                      <a href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                    </li>
+                  <li class="social">
+                    <a href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                  </li>
+              </ul>
+            </div>
+          </section>
+
+    </main>
+
+    <!--footer-->
+    <footer id="footer" >
+    All rights reserved
+    </footer>
   </body>
 </html>
+
+
