@@ -1,3 +1,0 @@
-## Smoothie Delight
-
-Recruitment task
